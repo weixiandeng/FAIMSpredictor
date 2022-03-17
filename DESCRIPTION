@@ -1,0 +1,13 @@
+Package: FAIMSpredictor
+Type: Package
+Title: Predict recommended compensation voltage value for given peptide sequence
+Version: 0.1.0
+Author: Weixian Deng@UCLA
+Maintainer: Weixian Deng <weixiandeng1990@gmail.com>
+Description: Predict recommended compensation voltage value for given peptide sequence
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+        Peptides,dplyr,h2o,magrittr
+RoxygenNote: 7.1.2
