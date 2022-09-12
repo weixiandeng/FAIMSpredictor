@@ -23,7 +23,12 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(FAIMSpredictor)
 
-CV_calc_no_empirical("AAAAAAAAAAAAA",2)
-
-CV_calc_with_empirical("AAAAAAAAAAAAA",2, 45)
+CV_calc_no_empirical(seq="AAAAAAAAAAAAA",charge=2)
 ```
+
+In which, seq argument takes peptide sequence as a string, and charge argument takes charge state of the peptide as a numeric variable.
+``` r
+CV_calc_with_empirical(seq="AAAAAAAAAAAAA",charge=2, cv=45)
+```
+Similarly, in the second function, once we have a experimentally measured CV value where the maximum intensity of a peptide is observed, we can feed the value to the third argument.
+
