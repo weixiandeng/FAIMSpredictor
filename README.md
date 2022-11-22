@@ -13,9 +13,9 @@ Let’s use FAIMSpredictor to predict peptide’s most suitable CV settings.
 You can install the development version of FAIMSpredictor like so:
 
 ``` r
-devtools::install_github("weixiandeng/FAIMS_CV_predictor")
+devtools::install_github("weixiandeng/FAIMSpredictor")
 ```
-
+## Download the two machine learning models to your working directory.
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
